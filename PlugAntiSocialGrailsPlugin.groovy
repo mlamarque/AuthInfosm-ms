@@ -20,7 +20,7 @@ class PlugAntiSocialGrailsPlugin {
 
     // TODO Fill in these fields
     def author = "Your name"
-    def authorEmail = ""
+    def authorEmail = "lamarque.matthieu@gmail.com"
     def title = "Plugin summary/headline"
     def description = '''\\
 Brief description of the plugin.
