@@ -45,7 +45,7 @@ Brief description of the plugin.
         sessionRegistry(SessionRegistryImpl)
 
         sessionAuthenticationStrategy(ConcurrentSessionControlStrategy, ref('sessionRegistry')) {
-            maximumSessions = -1
+            maximumSessions = 1
         }
 
         sessionFilter(ConcurrentSessionFilter) {
